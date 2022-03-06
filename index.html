@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > 
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <title>Pasteleria Moba</title>
+</head>
+<body>
+
+    <ul>
+        <img src="img/logo.png" id="logo"alt="logo" width="350px" height="350px">
+        <li><a href="pedidos.html">inventario</a></li>
+        <li><a href="index.html#pedido">Has tus pedido</a></li>
+        <li><a href="index,html#contacto">Contacto</a></li>
+        <li><a href="index.html#sabor">Sabores</a></li>
+        <li><a href="index.html">Inicio</a></li>
+    </ul>
+    <br>
+    
+    <div id="sabor">
+        <h1 class="titulo">Sabores de pasteles:</h1>
+        </br>
+        <div class="sabor">
+        <h1>Chocolate</h1>
+        <img src="img/chocolate.png" alt="Pastel Cholate" id="img_chocolate">
+        <br>$150.00
+        </div>
+        <div class="sabor">
+        <h1>Fresa</h1>
+        <img src="img/fresa.png" alt="Pastel Fresa" id="img_fresa">
+        <br>$160.00
+        </div>
+        <div class="sabor">
+        <h1>M&M</h1>
+        <img src="img/m&m.png" alt="Pastel m&m" id="img_m_m">
+        <br>$180.00
+        </div>
+        <div class="sabor">
+        <h1>Naranja</h1>
+        <img src="img/naranja.png" alt="Pastel Naranja" id="img_naranja">
+        <br>$149.00
+        
+        <br><a id="creditos" href='https://www.freepik.es/vectores/comida'>Vector de Comida creado por macrovector - www.freepik.es</a>
+        </div>
+     <h1 id="pedido"class="titulo">Has tu pedido</h1>
+        </br>
+    </div>
+
+    
+    <form>
+        <h1>Elige tu sabor del pastel:</h1> 
+        <input type="checkbox" id="vainilla" name="sabor" value="vainilla">
+        <label for="vainilla">Vainilla</label>
+        <input type="checkbox" id="chocolate" name="sabor" value="chocolate">
+        <label for="chocolate">Chocolate</label></br>
+        <input type="checkbox" id="fresa" name="sabor" value="fresa">
+        <label for="fresa">Fresa</label>
+        <input type="checkbox" id="limon" name="sabor" value="limon">
+        <label for="limon">Naranja</label></br>
+        </br>
+        <h1>Adornos del pastel</h1>
+        </br>
+        <input type="checkbox" id="FONDANT" name="adorno" value="FONDANT">
+        <label for="vainilla">FONDANT $80.00</label></br>
+
+        <input type="checkbox" id="CHOCOLATE FUNDIDO" name="adorno" value="CHOCOLATE FUNDIDO">
+        <label for="CHOCOLATE FUNDIDO">CHOCOLATE FUNDIDO $90.00</label></br>
+        
+        <input type="checkbox" id="FROSTING O BETÚN" name="adorno" value="FROSTING O BETÚN">
+        <label for="fresa">FROSTING O BETÚN $95.00</label></br>
+        
+        <input type="checkbox" id="azúcar glass" name="adorno" value="azúcar glass">
+        <label for="limon">Azúcar glass $65.00</label>
+        </br>
+        </br>
+        <h1>Datos de contacto:</h1>
+        </br>
+        <label for="nombre">Nombre</label></br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu Nombre" required="true"/></br>
+        <label for="apellido">Apellido Paterno</label></br>
+        <input type="text" id="apellido"name="apellido" placeholder="Escribe tu apellido Paterno" required="true"/></br>
+        <label for="apellidoM">Apellido Materno</label></br>
+        <input type="text" id="apellido"name="apellido" placeholder="Escribe tu apellido Materno" required="true"/></br>
+        <label for="email">Email:</label></br>
+        <input type="email" id="email" name="email" placeholder="Email">
+        </br>
+        <label for="descripcion">Descricpcion general del pastel</label></br>
+        <textarea id="comentario" name="comentario" rows="2" cols="30">
+        </textarea></br></br>
+
+        <input  type="submit" value="Enviar"/><br/>
+
+        </fieldset> 
+    </form>
+
+<h1 id="contacto"class="titulo">Contacto</h1>
+
+<div class="datos"><h2>Dirección Calle (nombre de la calle), <br>Teléfono 825-234-5869 <br>horarios de atención: 9:00 am - 6:00 pm</h2> </div>
+
+</body>
+</html>
